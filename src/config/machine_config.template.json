@@ -1,0 +1,18 @@
+{
+  "os_user_name": {
+    "worker_ip_1": "worker_1_username",
+    "worker_ip_2": "worker_2_username"
+  },
+  "os_password": {
+    "worker_ip_1": "your worker_1 password",
+    "worker_ip_2": "your worker_2 password"
+  },
+  "local_password": "your password",
+  "master_hostname": "hostname(or ip)",
+  "client_hostname": {
+    "worker_ip_1": "hostname(or ip)",
+    "worker_ip_2": "hostname(or ip)"
+  },
+  "client_name_prefix": "spark-",
+  "local_tar_files_folder_path": "{path}/Documents/deploy_tar_file"
+}

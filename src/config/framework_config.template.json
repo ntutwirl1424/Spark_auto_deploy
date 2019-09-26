@@ -1,0 +1,6 @@
+{
+  "framework_folder_root_path": "{path}/Documents",
+  "JAVA_HOME": "/usr/lib/jvm/java-8-openjdk-amd64/",
+  "PYTHON_VERSION": "python3",
+  "PYTHONHASHSEED": "33"
+}

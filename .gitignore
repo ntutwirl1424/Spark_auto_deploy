@@ -1,0 +1,6 @@
+*__pycache__*
+*__init__*
+src/config/machine_config.json
+src/config/framework_config.json
+src/config/ip_list.json
+src/config/spark_config.json

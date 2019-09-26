@@ -1,0 +1,10 @@
+{
+  "spark_master_ip": "master_ip",
+  "spark_folder_name": "spark",
+  "spark_tar_name": "spark.tar.gz",
+  "SPARK_MASTER_MEMORY": 14,
+  "SPARK_DRIVER_MEMORY": 14,
+  "SPARK_WORKER_MEMORY": 14,
+  "SPARK_EXECUTOR_MEMORY": 14,
+  "SPARK_WORKER_CORES": 4
+}
