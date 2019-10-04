@@ -40,7 +40,7 @@ class SparkDeploy(Deploy):
                    "#export SPARK_WORKER_MEMORY={}g".format(self.config.get_value("SPARK_WORKER_MEMORY")),
                    "#export SPARK_EXECUTOR_MEMORY={}g".format(self.config.get_value("SPARK_EXECUTOR_MEMORY")),
                    "#export SPARK_WORKER_CORES={}".format(self.config.get_value("SPARK_WORKER_CORES")),
-                   "export HADOOP_CONF_DIR={}/etc/hadoop".format(self.config.get_value("framework_folder_root_path")),
+                   "export HADOOP_CONF_DIR={}/hadoop/etc/hadoop".format(self.config.get_value("framework_folder_root_path")),
                    "export YARN_CONF_DIR={}/hadoop/etc/hadoop".format(self.config.get_value("framework_folder_root_path")),
                    "export SPARK_HOME={}".format(self.spark_framework.spark_path),
                    "export JAVA_HOME={}".format(self.config.get_value("JAVA_HOME")),
